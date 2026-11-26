@@ -260,7 +260,7 @@ window.ANIME_CATALOGO = [
     "status": "planejar"
   },
   {
-    "arquivo": "Re_ZERO.png",
+    "arquivo": "Re_ZERO.PNG",
     "titulo": "Re:Zero",
     "status": "planejar"
   },
