@@ -405,7 +405,7 @@ window.ANIME_CATALOGO = [
     "status": "planejar"
   },
   {
-    "arquivo": "Chainsaw_man.jpg",
+    "arquivo": "Chainsaw_man.JPG",
     "titulo": "Chainsaw Man",
     "status": "completo"
   },
