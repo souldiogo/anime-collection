@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#080b16">
+    <meta name="description" content="Minha lista pessoal de animes organizada por categorias.">
+    <title>Tudo | My List Anime</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-simple.css">
+    <link rel="icon" href="anime_png/favicon_LA.ico" type="image/x-icon">
+</head>
+
+<body data-page="tudo">
+    <header class="topbar">
+        <div class="shell topbar-inner"><a class="brand" href="index.html"><span>MY LIST <strong>ANIME</strong></span></a><span class="header-note">Catálogo pessoal de animes</span></div>
+    </header>
+    <main class="shell">
+        <section class="hero">
+            <div class="hero-content"><span class="eyebrow">Minha lista</span>
+                <h1>Meus animes<br>em um só lugar.</h1>
+                <p>Veja minha coleção de animes.</p>
+            </div>
+        </section>
+        <nav class="tabs" aria-label="Categorias de animes"><a class="tab active" data-tab="tudo" href="index.html"
+                aria-current="page"><span><b>Tudo (<span
+                            data-count="tudo">0</span>)</b><small>Todos os animes</small></span></a>
+            <a class="tab" data-tab="completo" href="completed.html"><span><b>Completo
+                        (<span data-count="completo">0</span>)</b><small>Já finalizados</small></span></a>
+            <a class="tab" data-tab="espera" href="on-hold.html"><span><b>Em espera
+                        (<span data-count="espera">0</span>)</b><small>Aguardando</small></span></a>
+            <a class="tab" data-tab="planejar" href="planned.html"><span><b>Planejar assistir
+                        (<span data-count="planejar">0</span>)</b><small>Para ver depois</small></span></a>
+        </nav>
+        <div class="layout">
+            <aside class="sidebar">
+                <h2 class="side-heading">RESUMO DA LISTA</h2>
+                <div class="side-row"><span>Total de animes</span><b data-count="tudo">0</b></div>
+                <div class="side-row"><span>Completos</span><b class="green" data-count="completo">0</b></div>
+                <div class="side-row"><span>Em espera</span><b class="orange" data-count="espera">0</b></div>
+                <div class="side-row"><span>Planejar assistir</span><b class="blue" data-count="planejar">0</b></div>
+                <hr>
+                <p class="side-note">Um espaço para acompanhar meus animes.</p>
+            </aside>
+            <section class="content">
+                <div class="toolbar">
+                    <div>
+                        <h2 id="section-title">Minha lista</h2>
+                        <p id="result-count" aria-live="polite"></p>
+                    </div>
+                    <div class="controls">
+                        <input id="search" class="search" type="search" placeholder="Buscar anime..."
+                            aria-label="Buscar anime pelo nome">
+                        <select id="sort" class="sort"
+                            aria-label="Ordenar animes">
+                            <option value="az">Nome A–Z</option>
+                            <option value="za">Nome Z–A</option>
+                        </select></div>
+                </div>
+                <div class="grid" id="anime-list"></div>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">CATÁLOGO PESSOAL</footer>
+    <script src="catalogo.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

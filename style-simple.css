@@ -1,0 +1,78 @@
+:root {
+    --bg: #101114;
+    --surface: #191a1f;
+    --surface2: #22232a;
+    --line: #34353d;
+    --purple: #9980c5;
+    --purple2: #594b74;
+    --text: #f2f1f5;
+    --muted: #a9a8b0;
+}
+
+body {
+    background: var(--bg);
+    font-family: Arial, sans-serif;
+}
+
+.topbar {
+    background: var(--bg);
+    backdrop-filter: none;
+}
+
+.hero {
+    border-color: var(--line);
+    border-radius: 8px;
+}
+
+.hero::before,
+.hero::after {
+    content: none;
+    display: none;
+}
+
+.eyebrow {
+    color: var(--muted);
+    letter-spacing: 1px;
+}
+
+.hero h1 {
+    letter-spacing: -.8px;
+}
+
+.tab,
+.sidebar,
+.anime-card,
+.search,
+.sort {
+    border-radius: 8px;
+}
+
+.tab:hover,
+.anime-card:hover {
+    border-color: var(--line);
+    transform: none;
+}
+
+.tab.active {
+    background: var(--surface2);
+    border-color: var(--purple);
+    box-shadow: none;
+}
+
+.brand strong {
+    color: var(--purple);
+}
+
+
+.status {
+    border-radius: 5px;
+    backdrop-filter: none;
+}
+
+.status.completo,
+.status.espera,
+.status.planejar,
+.status.sem-status {
+    color: var(--text);
+    border-color: #484950;
+}
