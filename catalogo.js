@@ -415,7 +415,7 @@ window.ANIME_CATALOGO = [
     "status": "planejar"
   },
   {
-    "arquivo": "Dorohedoro.jpg",
+    "arquivo": "Dorohedoro.JPG",
     "titulo": "Dorohedoro",
     "status": "completo"
   },
