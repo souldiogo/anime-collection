@@ -260,7 +260,7 @@ window.ANIME_CATALOGO = [
     "status": "planejar"
   },
   {
-    "arquivo": "Re_ Zero.png",
+    "arquivo": "Re_ZERO.png",
     "titulo": "Re:Zero",
     "status": "planejar"
   },
@@ -350,7 +350,7 @@ window.ANIME_CATALOGO = [
     "status": "completo"
   },
   {
-    "arquivo": "kiki_delivery_Service.jpg",
+    "arquivo": "Kiki_delivery_Service.JPG",
     "titulo": "kiki's Delivery Service",
     "status": "planejar"
   },
