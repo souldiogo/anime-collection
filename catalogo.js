@@ -365,7 +365,7 @@ window.ANIME_CATALOGO = [
     "status": "planejar"
   },
   {
-    "arquivo": "The_garden_for_words.JPG",
+    "arquivo": "The_garden_for_words.jpg",
     "titulo": "The Garden For Words",
     "status": "planejar"
   },
