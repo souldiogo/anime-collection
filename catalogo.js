@@ -341,7 +341,7 @@ window.ANIME_CATALOGO = [
   },
   {
     "arquivo": "your lie in apri.png",
-    "titulo": "Your Lie in Apri",
+    "titulo": "Your Lie in April",
     "status": "completo"
   },
   {
